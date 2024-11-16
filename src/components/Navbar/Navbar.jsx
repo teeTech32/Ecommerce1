@@ -22,7 +22,7 @@ const Navbar = ({darkMode, toggleMode, handlePopup}) => {
             </a>
           </div>
           {/*search bar and other buttons */}
-          <div className='flex gap-20  lg:gap-6 items-center'>
+          <div className='flex gap-4 md:gap-4 lg:gap-6 items-center'>
             <div className='group relative '>
               <input type="text" placeholder='search' className=' sm:w-[200px] lg:w-[300px] group-hover:w-[250px] lg:group-hover:w-[400px] transition-all duration-300 rounded-full border border-gray-300 px-2 py-1 lg:px-4 lg:py-2 focus:outline-none focus:border-1 focus:border-primary dark:text-black' />
                <IoMdSearch  className='text-3xl lg:text-4xl absolute text-black bottom-4 right-2 translate-y-1/2'/>
@@ -40,7 +40,7 @@ const Navbar = ({darkMode, toggleMode, handlePopup}) => {
         </div>
       </div>
       <div className='flex justify-center bg-white text-black dark:bg-secondary dark:text-white'>
-        <ul className='flex gap-10 lg:gap-40 items-center shadow-xl '>
+        <ul className='flex gap-10 lg:gap-40 items-center shadow-xl px-6 '>
           {
               Menu.map((data)=>(
                 <li data-aos='zoom-in'
