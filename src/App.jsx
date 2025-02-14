@@ -12,6 +12,7 @@ import Subscribe from './components/Subscribe/Subscribe.jsx'
 import Testimonial from './components/Testimonial/Testimonial.jsx'
 import Footer from './components/Footer/Footer.jsx'
 import Popup from './components/Popup/Popup.jsx'
+import Shoes from './components/Shoes/Shoes.jsx'
 
 
 const App = () => {
@@ -44,10 +45,13 @@ const [darkMode, setDarkMode] = React.useState(true)
         </section>
         <Hero handlePopup={handlePopup}/>
         <section id='allwears'>
-          <Products/>
+          <Products handlePopup={handlePopup}/>
         </section>
         <section id='services'>
           <TopProducts handlePopup={handlePopup}/>
+        </section>
+        <section id='services'>
+          <Shoes handlePopup={handlePopup}/>
         </section>
         <section id='bestselling'>
           <Banner/>

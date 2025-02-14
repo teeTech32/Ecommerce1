@@ -5,6 +5,11 @@ import Tshirt1 from './assets/shirt/shirt.png';
 import Tshirt2 from './assets/shirt/shirt2.png';
 import Tshirt3 from './assets/shirt/shirt3.png';
 import Tshirt4 from './assets/shirt/tshirt4.png';
+import tcloth1 from './assets/shirt/tcloth1.png'
+import tcloth2 from './assets/shirt/tcloth2.png'
+import tcloth3 from './assets/shirt/tcloth3.png'
+import tcloth4 from './assets/shirt/tcloth4.png'
+import tcloth5 from './assets/shirt/tclolth5.png'
 import Img1 from './assets/women/women.png'
 import Img2 from './assets/women/women2.jpg'
 import Img3 from './assets/women/women3.jpg'
@@ -16,6 +21,27 @@ import Img8 from './assets/women/man3.jpg'
 import Img9 from './assets/women/ttwomen.jpg'
 import Img10 from './assets/women/twomen.jpg'
 import Img11 from './assets/women/women5.jpg'
+import Img12 from './assets/women/Img12.jpg'
+import Img13 from './assets/women/Imag13.jpg'
+import Img14 from './assets/women/Img14.jpg'
+import Img15 from './assets/women/Img15.jpg'
+import Img16 from './assets/women/Img16.jpg'
+import sneak1 from './assets/sneaker/sneak1.jpg'
+import sneak2 from './assets/sneaker/sneak2.jpg'
+import sneak3 from './assets/sneaker/sneak3.jpg'
+import sneak4 from './assets/sneaker/sneak4.jpg'
+import sneak5 from './assets/sneaker/sneak5.jpg'
+import sneak6 from './assets/sneaker/sneak6.jpg'
+import sneak7 from './assets/sneaker/sneak7.jpg'
+import sneak8 from './assets/sneaker/sneak8.jpg'
+import sneak9 from './assets/sneaker/sneak9.jpg'
+import sneak10 from './assets/sneaker/sneak10.jpg'
+import sneak11 from './assets/sneaker/sneak11.jpg'
+import sneak12 from './assets/sneaker/sneak12.jpg'
+import sneak13 from './assets/sneaker/sneak13.jpg'
+import sneak14 from './assets/sneaker/sneak14.jpg'
+import sneak15 from './assets/sneaker/sneak15.jpg'
+
 
 
 export const Menu = [
@@ -146,6 +172,168 @@ export const ProductsData = [
       color: 'gray',
       aosDisplay: '800'
     },
+    {
+      id: 12,
+      img: Img12,
+      title: 'Shakara Bold',
+      rating: 9.1,
+      color: 'green',
+      aosDisplay: '800'
+    },
+    {
+      id: 13,
+      img: Img13,
+      title: 'Nice Look',
+      rating: 8.5,
+      color: 'light-green',
+      aosDisplay: '800'
+    },
+    {
+      id: 14,
+      img: Img14,
+      title: 'Over-All',
+      rating: 9.4,
+      color: 'white',
+      aosDisplay: '800'
+    },
+    {
+      id: 15,
+      img: Img15,
+      title: 'Men Suit',
+      rating: 8.3,
+      color: 'black',
+      aosDisplay: '800'
+    },
+    {
+      id: 16,
+      img: Img16,
+      title: 'Short Suit',
+      rating: 5.9,
+      color: 'blue',
+      aosDisplay: '800'
+    },
+  ]
+  export const ShoesData = [
+    {
+      id: 1,
+      img: sneak1,
+      title: 'Ethic',
+      rating: 0.5,
+      color: 'white',
+      aosDisplay: '100'
+    },
+    {
+      id: 2,
+      img: sneak2,
+      title: 'Western',
+      rating: 9.5,
+      color: 'Red',
+      aosDisplay: '200'
+    },
+    {
+      id: 3,
+      img:sneak3,
+      title: 'Road Goggle',
+      rating: 9.7,
+      color: 'Brown',
+      aosDisplay: '400'
+    },
+    {
+      id: 4,
+      img: sneak4,
+      title: 'Printed .K',
+      rating: 9.4,
+      color: 'Yellow',
+      aosDisplay: '600'
+    },
+    {
+      id: 5,
+      img: sneak5,
+      title: 'Fashion',
+      rating: 4.5,
+      color: 'blue',
+      aosDisplay: '800'
+    },
+    {
+      id: 6,
+      img: sneak6,
+      title: 'T-Glooh',
+      rating: 8.5,
+      color: 'White',
+      aosDisplay: '800'
+    },
+    {
+      id: 7,
+      img: sneak7,
+      title: 'Flamboo',
+      rating: 5.5,
+      color: 'Orange',
+      aosDisplay: '800'
+    },
+    {
+      id: 8,
+      img: sneak8,
+      title: 'Fashion Tab',
+      rating: 6.5,
+      color: 'Red',
+      aosDisplay: '800'
+    },
+    {
+      id: 9,
+      img: sneak9,
+      title: 'Ham Complete',
+      rating: 9.5,
+      color: 'Brown',
+      aosDisplay: '800'
+    },
+    {
+      id: 10,
+      img: sneak10,
+      title: 'Banya Glow',
+      rating: 9.5,
+      color: 'Pink',
+      aosDisplay: '800'
+    },
+    {
+      id: 11,
+      img: sneak11,
+      title: 'Double Bold',
+      rating: 6.1,
+      color: 'gray',
+      aosDisplay: '800'
+    },
+    {
+      id: 12,
+      img: sneak12,
+      title: 'Shakara thin',
+      rating: 8.1,
+      color: 'green',
+      aosDisplay: '800'
+    },
+    {
+      id: 13,
+      img: sneak13,
+      title: 'Nice Look',
+      rating: 9.5,
+      color: 'light-gray',
+      aosDisplay: '800'
+    },
+    {
+      id: 14,
+      img: sneak14,
+      title: 'Move Fast',
+      rating: 9.4,
+      color: 'green',
+      aosDisplay: '800'
+    },
+    {
+      id: 15,
+      img: sneak15,
+      title: 'Men fix',
+      rating: 8.8,
+      color: 'black',
+      aosDisplay: '800'
+    },
   ]
   export const ImageLists = [
   {
@@ -189,7 +377,37 @@ export const  TopProductsList = [
   {
     id:4,
     img:Tshirt4,
-    title: "Dual' Shirt",
+    title: "Dual Shirt",
+    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi harum rem excepturi in repellat placeat consectetur provident officiis dolores."
+  },
+  {
+    id:5,
+    img:tcloth1,
+    title: "Manni Shirt",
+    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi harum rem excepturi in repellat placeat consectetur provident officiis dolores."
+  },
+  {
+    id:6,
+    img:tcloth2,
+    title: "Bool-co",
+    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi harum rem excepturi in repellat placeat consectetur provident officiis dolores."
+  },
+  {
+    id:7,
+    img:tcloth3,
+    title: "Office Shirt",
+    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi harum rem excepturi in repellat placeat consectetur provident officiis dolores."
+  },
+  {
+    id:8,
+    img:tcloth4,
+    title: "Save Wealther",
+    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi harum rem excepturi in repellat placeat consectetur provident officiis dolores."
+  },
+  {
+    id:9,
+    img:tcloth5,
+    title: "Cold Day",
     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi harum rem excepturi in repellat placeat consectetur provident officiis dolores."
   }
 
